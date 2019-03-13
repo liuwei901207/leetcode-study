@@ -1,11 +1,9 @@
-import reverseWords from './557. Reverse Words in a String III'
-
 /**
  * @param {string} digits
  * @return {string[]}
  */
 var letterCombinations = function (digits) {
-  if (digits == '') return []
+  if (digits === '') return []
   let arr = [
     null, null,
     ['a', 'b', 'c'],
