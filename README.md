@@ -18,6 +18,11 @@ npm install
 npm test
 ```
 
+## 说明
+
+- master 分支存放初始项目环境
+- code 分支存放所有leetcode代码
+
 ## 踩坑
 
 今天升级了Node到v11.11，然后运行代码，出错：
